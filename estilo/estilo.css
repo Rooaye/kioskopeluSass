@@ -31,7 +31,8 @@ nav .nav-link:hover {
   text-shadow: 0 0 5px wheat;
 }
 .jumbotron h1 {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .jumbotron p {
   text-transform: capitalize;
@@ -70,6 +71,11 @@ h2 {
 
 .ar h3::first-letter {
   color: #ff8200;
+}
+
+::-moz-selection {
+  color: #ff8200;
+  background-color: #333;
 }
 
 ::selection {
@@ -144,6 +150,5 @@ footer .nav-link {
 footer .nav-link:hover {
   transition: 2s;
   font-size: 22px;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+  margin: 50px;
+}/*# sourceMappingURL=estilo.css.map */
