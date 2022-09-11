@@ -58,7 +58,7 @@ h2 {
 }
 
 .al {
-  background-image: url(/assets/moro.jpg);
+  background-image: url(../assets/moro.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -92,10 +92,16 @@ h2 {
 }
 
 div.card {
+  
   width: 80%;
-  background-color: white;
+  background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  height:100%;
+}
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 div.card-body {
@@ -113,16 +119,18 @@ div.card-body {
   color: rgb(44, 44, 44);
   transition: 2s;
 }
-
+/*
 td {
   padding: 50px;
 }
-
+*/
 footer {
   font-family: "EB Garamond", serif;
   background-color: #333;
   text-align: center;
-  padding: 20px;
+  width: 100%;
+  margin-top:50px;
+  
 }
 footer ul {
   list-style: none;
